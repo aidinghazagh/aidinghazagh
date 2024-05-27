@@ -7,7 +7,7 @@ Software Developer
 I'm a third year Computer engineering student.
 
 * 🌍  I'm based in Gorgan
-* ✉️  You can contact me at [aidin200382@gmail.com](mailto:aidin200382@gmail.com)
+* ✉️  You can contact me at [aidin200382@gmail.com](mailto:ghazaghaidin@gmail.com)
 * 🧠  I'm learning Flutter, Laravel
 
 ### Skills
