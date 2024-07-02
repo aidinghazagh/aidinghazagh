@@ -4,11 +4,11 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Software Developer
 -----------------
 
-I'm a third year Computer engineering student.
+I'm a forth year Computer engineering student.
 
 * 🌍  I'm based in Gorgan
 * ✉️  You can contact me at [ghazaghaidin@gmail.com](mailto:ghazaghaidin@gmail.com)
-* 🧠  I'm learning Kotlin and Django
+* 🧠  I'm learning Kotlin and R
 
 ### Skills
 
