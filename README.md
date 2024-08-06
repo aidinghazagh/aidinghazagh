@@ -5,7 +5,7 @@ Software Developer
 -----------------
 
 I'm a forth year Computer engineering student.
-Currently working at Altyn Logistics
+Currently working at Altyn Logistics as a software developer
 
 * 🌍  I'm based in Iran, Golestan, Gorgan
 * ✉️  You can contact me at [ghazaghaidin@gmail.com](mailto:ghazaghaidin@gmail.com)
