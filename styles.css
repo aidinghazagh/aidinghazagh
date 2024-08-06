@@ -1,0 +1,52 @@
+#email {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resume-section-content h3{
+    justify-content: -50px;
+}
+#laravel_daily_image {
+    border-radius: 15px;
+}
+
+.skills-grid {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Automatic column sizing */
+
+  }
+  
+  .skills-grid a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skills-grid a img {
+    width: 50%; /* Adjust size as needed */
+    height: 50%; /* Adjust size as needed */
+  }
+  
+  .skills-grid a:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #chess_link{
+    margin: 8px;
+    padding: 8px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  #chess_link:hover {
+    background-color: #e0e0e0;
+  }
