@@ -10,6 +10,7 @@ Currently working at Altyn Logistics
 * 🌍  I'm based in Iran, Golestan, Gorgan
 * ✉️  You can contact me at [ghazaghaidin@gmail.com](mailto:ghazaghaidin@gmail.com)
 * 🧠  I'm learning C# .NET Core 8 with MS SQL
+* 🏋️‍♂️  I love working out, 🏔️ going on hikes, 🎤 Singing and 🎸 playing the guitar
 
 ### Skills
 
