@@ -50,4 +50,8 @@ Currently working at Altyn Logistics as a software developer
   </a> 
 </p>
 
+
+![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=314quwmylkpmp5sjzf267tn64nhe&count={count})
+
+
 <br /><br /><br /><br /><br /><br /><br />
