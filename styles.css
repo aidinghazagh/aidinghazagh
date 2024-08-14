@@ -50,3 +50,16 @@
   #chess_link:hover {
     background-color: #e0e0e0;
   }
+
+
+.responsive-img {
+    width: 100%;
+    max-width: 500px; /* Default maximum width */
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .responsive-img {
+        max-width: 300px; /* Smaller max width for small screens */
+    }
+}
