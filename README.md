@@ -44,6 +44,7 @@ Currently working at **Altyn Logistics** as an IT/Software/Web Developer, buildi
 - Based in Iran, Golestan, Gorgan
 - Passionate about building clean, efficient web and mobile applications
 - Love working out, hiking, singing, guitar, video games, chess & sim racing
+- [:page_facing_up: View My Resume](assets/Aidin-Ghazagh-Resume.pdf)
 
 ---
 
@@ -92,6 +93,18 @@ Currently working at **Altyn Logistics** as an IT/Software/Web Developer, buildi
   <a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/r-colored.svg" width="36" height="36" alt="R" /></a>&nbsp;
   <a href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer"><img src="assets/icons/logos/powerbi.svg" width="36" height="36" alt="Power BI" /></a>
 </p>
+
+---
+
+### Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [Project Name](https://github.com/aidinghazagh) | Brief description of the project | Laravel, MySQL |
+| [Project Name](https://github.com/aidinghazagh) | Brief description of the project | .NET, C# |
+| [Project Name](https://github.com/aidinghazagh) | Brief description of the project | Flutter, Dart |
+
+> Check out my [portfolio](https://aidinghazagh.ir) for more details.
 
 ---
 

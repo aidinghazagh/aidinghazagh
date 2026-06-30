@@ -539,6 +539,109 @@ img { max-width: 100%; display: block; }
 }
 
 /* ========================================
+   PROJECTS
+   ======================================== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color .3s, transform .3s;
+}
+
+.project-card:hover {
+  border-color: rgba(0,212,170,.3);
+  transform: translateY(-4px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.project-header > i {
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.project-links a {
+  color: var(--text-muted);
+  font-size: 1rem;
+  transition: color .2s;
+}
+
+.project-links a:hover {
+  color: var(--accent);
+}
+
+.project-title {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.project-desc {
+  font-size: .85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-tags span {
+  font-size: .72rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--accent-dim);
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+/* ========================================
+   HERO RESUME BUTTON
+   ======================================== */
+.hero-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  color: var(--accent);
+  font-size: .88rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  transition: all .3s;
+}
+
+.hero-resume-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* ========================================
    INTERESTS
    ======================================== */
 .interests-grid {
@@ -837,6 +940,12 @@ img { max-width: 100%; display: block; }
   .award-logo img { width: 40px; height: 40px; }
   .award-body h3 { font-size: .9rem; }
   .award-body li { font-size: .78rem; }
+
+  /* Projects */
+  .projects-grid { grid-template-columns: 1fr; gap: 12px; }
+  .project-card { padding: 18px; }
+  .project-title { font-size: 1rem; }
+  .project-desc { font-size: .82rem; }
 
   /* Education */
   .edu-card { padding: 18px; gap: 14px; }
