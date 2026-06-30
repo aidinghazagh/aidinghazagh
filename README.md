@@ -96,17 +96,7 @@ Currently working at **Altyn Logistics** as an IT/Software/Web Developer, buildi
 
 ---
 
-### Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| [Project Name](https://github.com/aidinghazagh) | Brief description of the project | Laravel, MySQL |
-| [Project Name](https://github.com/aidinghazagh) | Brief description of the project | .NET, C# |
-| [Project Name](https://github.com/aidinghazagh) | Brief description of the project | Flutter, Dart |
-
 > Check out my [portfolio](https://aidinghazagh.ir) for more details.
-
----
 
 ### Connect
 
