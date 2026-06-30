@@ -1,55 +1,122 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Aidin Ghazagh
-=====================================================================================================================================
-
-Software Developer
------------------
-
-I'm a forth year Computer engineering student.
-Currently working at Altyn Logistics as a software developer and at Matzon Company as a Front-end developer
-
-* 🌍  I'm based in Iran, Golestan, Gorgan
-* ✉️  You can contact me at [aidinghazagh@aidinghazagh.ir](mailto:aidinghazagh@aidinghazagh.ir)
-* 🧠  I'm learning C# .NET Core 8 with MS SQL
-* 🏋️‍♂️  I love working out, 🏔️ going on hikes, 🎤 Singing, 🎸 playing guitar 🎮 video games ♟️ chess and sim racing 🏎
-
-### Skills
-
-
-<p align="left">
-  
-<a href="https://dart.dev/" target="_blank" rel="noreferrer"><!----><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a><a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg" width="36" height="36" alt="Flutter" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django" /></a><a href="https://laravel.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg" width="36" height="36" alt="Laravel" /></a><a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma"></a><a href="https://kotlinlang.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" width="36" height="36" alt="Kotlin" /></a><a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg" width="36" height="36" alt="C#" /></a><a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dot-net-colored.svg" width="36" height="36" alt=".NET" /></a><a href="https://www.r-project.org/about.html" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png?20240131042527" width="36" height="36" alt="R" /></a><a href="https://www.microsoft.com/en-us/sql-server/sql-server-2022" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/?size=512&id=laYYF3dV0Iew&format=png" width="36" height="36" alt="Microsoft SQL Server" /></a><a href="https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/220px-New_Power_BI_Logo.svg.png" width="36" height="36" alt="Power BI" /></a>
-
+<p align="center">
+  <img src="assets/images/waving.gif" width="60" alt="Hi there!">
 </p>
 
+<h1 align="center">Aidin Ghazagh</h1>
+<p align="center">
+  <b>IT/Software/Web Developer — Fullstack</b><br>
+  <i>Computer Engineering Graduate</i>
+</p>
 
-### Socials
-
-<p align="left">
-  <a href="https://www.github.com/aidinghazagh" target="_blank" rel="noreferrer"> 
+<p align="center">
+  <a href="https://github.com/aidinghazagh" target="_blank" rel="noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> 
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> 
-    </picture> 
-  </a>
-  
+      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/github-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/github.svg" />
+      <img src="assets/icons/socials/github.svg" width="32" height="32" alt="GitHub" />
+    </picture>
+  </a>&nbsp;
   <a href="https://www.linkedin.com/in/aidin-ghazagh" target="_blank" rel="noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" />
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
-    </picture> 
+      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/linkedin-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/linkedin.svg" />
+      <img src="assets/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" />
+    </picture>
+  </a>&nbsp;
+  <a href="https://www.instagram.com/aidinghazagh" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/instagram-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/instagram.svg" />
+      <img src="assets/icons/socials/instagram.svg" width="32" height="32" alt="Instagram" />
+    </picture>
+  </a>&nbsp;
+  <a href="mailto:aidinghazagh@aidinghazagh.ir">
+    <img src="assets/icons/socials/email.png" width="32" height="32" alt="Email" />
   </a>
-  
-  <a href="http://www.instagram.com/aidinghazagh" target="_blank" rel="noreferrer">
-    <picture> 
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> 
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" />
-    </picture> 
-  </a> 
 </p>
 
+---
 
+### About Me
 
-<br /><br /><br /><br /><br /><br /><br />
+Currently working at **Altyn Logistics** as an IT/Software/Web Developer, building fullstack web applications with Laravel and managing the company's social media presence.
+
+- Based in Iran, Golestan, Gorgan
+- Passionate about building clean, efficient web and mobile applications
+- Love working out, hiking, singing, guitar, video games, chess & sim racing
+
+---
+
+### Tech Stack
+
+**Backend**
+
+<p>
+  <a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a>&nbsp;
+  <a href="https://laravel.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/laravel-colored.svg" width="36" height="36" alt="Laravel" /></a>&nbsp;
+  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>&nbsp;
+  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/django-colored.svg" width="36" height="36" alt="Django" /></a>&nbsp;
+  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/csharp-colored.svg" width="36" height="36" alt="C#" /></a>&nbsp;
+  <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/dot-net-colored.svg" width="36" height="36" alt=".NET" /></a>
+</p>
+
+**Frontend**
+
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="assets/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>&nbsp;
+  <a href="https://www.w3.org/TR/CSS/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="assets/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>&nbsp;
+  <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
+</p>
+
+**Mobile**
+
+<p>
+  <a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a>&nbsp;
+  <a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/flutter-colored.svg" width="36" height="36" alt="Flutter" /></a>&nbsp;
+  <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/kotlin.svg" width="36" height="36" alt="Kotlin" /></a>
+</p>
+
+**Databases**
+
+<p>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>&nbsp;
+  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"><img src="assets/icons/skills/mssql.png" width="36" height="36" alt="MS SQL Server" /></a>
+</p>
+
+**Tools & Design**
+
+<p>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>&nbsp;
+  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>&nbsp;
+  <a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/r-colored.svg" width="36" height="36" alt="R" /></a>&nbsp;
+  <a href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer"><img src="assets/icons/logos/powerbi.svg" width="36" height="36" alt="Power BI" /></a>
+</p>
+
+---
+
+### Connect
+
+<p>
+  <a href="https://www.github.com/aidinghazagh" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/github-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/github.svg" />
+      <img src="assets/icons/socials/github.svg" width="48" height="48" alt="GitHub" />
+    </picture>
+  </a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/aidin-ghazagh" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/linkedin-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/linkedin.svg" />
+      <img src="assets/icons/socials/linkedin.svg" width="48" height="48" alt="LinkedIn" />
+    </picture>
+  </a>&nbsp;&nbsp;
+  <a href="https://www.instagram.com/aidinghazagh" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/instagram-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/instagram.svg" />
+      <img src="assets/icons/socials/instagram.svg" width="48" height="48" alt="Instagram" />
+    </picture>
+  </a>
+</p>
