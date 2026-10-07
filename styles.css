@@ -359,6 +359,7 @@ code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; 
 .results .source a { text-decoration-color: var(--faint); }
 
 .skip-intro {
+  display: none;
   position: fixed;
   top: 0.9rem;
   inset-inline-end: 1rem;
@@ -373,7 +374,9 @@ code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; 
 }
 .show-intro .skip-intro { display: block; }
 .skip-intro:hover { color: var(--yellow); border-color: currentColor; }
-.intro[data-phase="result"] ~ .skip-intro { display: none; }
+.intro[data-phase="result"] ~ .skip-intro,
+.intro[data-phase="wipe"] ~ .skip-intro,
+.intro[data-phase="off"] ~ .skip-intro { display: none; }
 
 /* short screens (phones in a browser, laptops): tighten the start screen */
 @media (max-height: 860px) {
