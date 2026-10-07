@@ -1,125 +1,38 @@
-<p align="center">
-  <img src="assets/images/waving.gif" width="60" alt="Hi there!">
-</p>
+<a href="https://aidinghazagh.ir">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/images/readme-dark.png">
+    <img src="assets/images/readme-light.png" alt="Aidin Ghazagh — I build the software a logistics company runs on." width="100%">
+  </picture>
+</a>
 
-<h1 align="center">Aidin Ghazagh</h1>
-<p align="center">
-  <b>IT/Software/Web Developer — Fullstack</b><br>
-  <i>Computer Engineering Graduate</i>
-</p>
+Full-stack developer at **Altyn Logistics** in Gorgan, Iran. Mostly Laravel and MySQL; .NET, Flutter and Kotlin when the job calls for it. Starting a Master's in Computer Engineering (Software) this year.
 
-<p align="center">
-  <a href="https://github.com/aidinghazagh" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/github-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/github.svg" />
-      <img src="assets/icons/socials/github.svg" width="32" height="32" alt="GitHub" />
-    </picture>
-  </a>&nbsp;
-  <a href="https://www.linkedin.com/in/aidin-ghazagh" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/linkedin-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/linkedin.svg" />
-      <img src="assets/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" />
-    </picture>
-  </a>&nbsp;
-  <a href="https://www.instagram.com/aidinghazagh" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/instagram-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/instagram.svg" />
-      <img src="assets/icons/socials/instagram.svg" width="32" height="32" alt="Instagram" />
-    </picture>
-  </a>&nbsp;
-  <a href="mailto:aidinghazagh@aidinghazagh.ir">
-    <img src="assets/icons/socials/email.png" width="32" height="32" alt="Email" />
-  </a>
-</p>
+**[aidinghazagh.ir](https://aidinghazagh.ir)** · [Résumé](assets/Aidin-Ghazagh-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/aidin-ghazagh) · [aidinghazagh@aidinghazagh.ir](mailto:aidinghazagh@aidinghazagh.ir) · [فارسی](https://aidinghazagh.ir/fa/)
 
----
+### Things I've built
 
-### About Me
+**[Shop Manager](https://github.com/aidinghazagh/shopmanager-backend)** — a Laravel API and [Flutter app](https://github.com/aidinghazagh/shopmanager-frontend) for running a small shop. Each order keeps a snapshot of the product's price at the time of sale, so old orders and profit figures don't shift when prices do; API errors come back in English or Farsi.
 
-Currently working at **Altyn Logistics** as an IT/Software/Web Developer, building fullstack web applications with Laravel and managing the company's social media presence.
+**[Exercise dataset, in Farsi](https://github.com/aidinghazagh/exercises-dataset-farsi)** — 1,324 gym exercises translated into Farsi with a batched, resumable LLM pipeline. [Browse it →](https://aidinghazagh.github.io/exercises-dataset-farsi/)
 
-- Based in Iran, Golestan, Gorgan
-- Passionate about building clean, efficient web and mobile applications
-- Love working out, hiking, singing, guitar, video games, chess & sim racing
-- [:page_facing_up: View My Resume](assets/Aidin-Ghazagh-Resume.pdf)
+**[CommitScope](https://github.com/aidinghazagh/github-timeline)** — any GitHub profile as a timeline, in React and TypeScript. Full history comes from GraphQL, fetched a year at a time because that's GitHub's limit. [Try it →](https://aidinghazagh.github.io/github-timeline/)
 
----
+**[pingeR](https://github.com/aidinghazagh/pingeR)** and **[musicvisu](https://github.com/aidinghazagh/musicvisu)** — two small R packages: one logs pings and reports packet loss and p95/p99 latency, the other turns audio frequencies and lyrics into charts.
 
-### Tech Stack
+### Now
 
-**Backend**
+- Building web apps and internal tools at Altyn Logistics
+- Starting my Master's in Gorgan
+- Off the clock: running, chess, sim racing
 
-<p>
-  <a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a>&nbsp;
-  <a href="https://laravel.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/laravel-colored.svg" width="36" height="36" alt="Laravel" /></a>&nbsp;
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>&nbsp;
-  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/django-colored.svg" width="36" height="36" alt="Django" /></a>&nbsp;
-  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/csharp-colored.svg" width="36" height="36" alt="C#" /></a>&nbsp;
-  <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/dot-net-colored.svg" width="36" height="36" alt=".NET" /></a>
-</p>
+### Toolbox
 
-**Frontend**
+- **Every day:** PHP & Laravel, MySQL, JavaScript, Git
+- **At work:** C# & .NET, SQL Server, Flutter & Dart, Kotlin
+- **On the side:** TypeScript & React, Electron, Python, R
 
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="assets/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>&nbsp;
-  <a href="https://www.w3.org/TR/CSS/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>&nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="assets/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>&nbsp;
-  <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
-</p>
+<div dir="rtl">
 
-**Mobile**
+**به فارسی:** توسعه‌دهندهٔ فول‌استک در آلتن لجستیک، گرگان. بیشتر با لاراول و MySQL کار می‌کنم و به‌زودی کارشناسی ارشد مهندسی نرم‌افزار را شروع می‌کنم. [نسخهٔ فارسی سایت ←](https://aidinghazagh.ir/fa/)
 
-<p>
-  <a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a>&nbsp;
-  <a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/flutter-colored.svg" width="36" height="36" alt="Flutter" /></a>&nbsp;
-  <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/kotlin.svg" width="36" height="36" alt="Kotlin" /></a>
-</p>
-
-**Databases**
-
-<p>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>&nbsp;
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"><img src="assets/icons/skills/mssql.png" width="36" height="36" alt="MS SQL Server" /></a>
-</p>
-
-**Tools & Design**
-
-<p>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>&nbsp;
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>&nbsp;
-  <a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="assets/icons/skills/r-colored.svg" width="36" height="36" alt="R" /></a>&nbsp;
-  <a href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer"><img src="assets/icons/logos/powerbi.svg" width="36" height="36" alt="Power BI" /></a>
-</p>
-
----
-
-> Check out my [portfolio](https://aidinghazagh.ir) for more details.
-
-### Connect
-
-<p>
-  <a href="https://www.github.com/aidinghazagh" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/github-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/github.svg" />
-      <img src="assets/icons/socials/github.svg" width="48" height="48" alt="GitHub" />
-    </picture>
-  </a>&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/aidin-ghazagh" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/linkedin-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/linkedin.svg" />
-      <img src="assets/icons/socials/linkedin.svg" width="48" height="48" alt="LinkedIn" />
-    </picture>
-  </a>&nbsp;&nbsp;
-  <a href="https://www.instagram.com/aidinghazagh" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/icons/socials/instagram-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/icons/socials/instagram.svg" />
-      <img src="assets/icons/socials/instagram.svg" width="48" height="48" alt="Instagram" />
-    </picture>
-  </a>
-</p>
+</div>

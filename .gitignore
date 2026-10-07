@@ -25,3 +25,6 @@ npm-debug.log*
 *.tmp
 *.bak
 *.cache
+
+# Local AI tool plans
+.mimocode/
