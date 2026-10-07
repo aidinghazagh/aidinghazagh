@@ -1,38 +1,31 @@
-<a href="https://aidinghazagh.ir">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/images/readme-dark.png">
-    <img src="assets/images/readme-light.png" alt="Aidin Ghazagh — I build the software a logistics company runs on." width="100%">
-  </picture>
-</a>
+<a href="https://aidinghazagh.ir"><img src="assets/images/readme-banner.png" alt="GHA #1, Aidin Ghazagh: I like computers." width="100%"></a>
 
-Full-stack developer at **Altyn Logistics** in Gorgan, Iran. Mostly Laravel and MySQL; .NET, Flutter and Kotlin when the job calls for it. Starting a Master's in Computer Engineering (Software) this year.
+I like computers.
+
+Software developer at **Altyn Logistics** in Gorgan, Iran. Laravel and MySQL most days, plus .NET, Flutter and Kotlin when the job needs them. Starting a master's in software engineering this year.
 
 **[aidinghazagh.ir](https://aidinghazagh.ir)** · [Résumé](assets/Aidin-Ghazagh-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/aidin-ghazagh) · [aidinghazagh@aidinghazagh.ir](mailto:aidinghazagh@aidinghazagh.ir) · [فارسی](https://aidinghazagh.ir/fa/)
 
-### Things I've built
+### Classification
 
-**[Shop Manager](https://github.com/aidinghazagh/shopmanager-backend)** — a Laravel API and [Flutter app](https://github.com/aidinghazagh/shopmanager-frontend) for running a small shop. Each order keeps a snapshot of the product's price at the time of sale, so old orders and profit figures don't shift when prices do; API errors come back in English or Farsi.
+| Pos | Project | What it is |
+|:---:|---|---|
+| 1 | **[Shop Manager](https://github.com/aidinghazagh/shopmanager-backend)** | Laravel API and [Flutter app](https://github.com/aidinghazagh/shopmanager-frontend) for small shops. Orders keep the price each product sold at, so old profit figures never move. |
+| 2 | **[Exercises, in Farsi](https://github.com/aidinghazagh/exercises-dataset-farsi)** | 1,324 gym exercises translated to Farsi by a batch pipeline that survives dropped connections. [Browse it](https://aidinghazagh.github.io/exercises-dataset-farsi/) |
+| 3 | **[CommitScope](https://github.com/aidinghazagh/github-timeline)** | Any GitHub profile as a timeline, in React and TypeScript. [Try it](https://aidinghazagh.github.io/github-timeline/) |
+| 4 | **[pingeR](https://github.com/aidinghazagh/pingeR)** | R package that logs pings and reports packet loss and p95/p99 latency. |
+| 5 | **[musicvisu](https://github.com/aidinghazagh/musicvisu)** | R package that turns audio frequencies and lyrics into charts. |
 
-**[Exercise dataset, in Farsi](https://github.com/aidinghazagh/exercises-dataset-farsi)** — 1,324 gym exercises translated into Farsi with a batched, resumable LLM pipeline. [Browse it →](https://aidinghazagh.github.io/exercises-dataset-farsi/)
-
-**[CommitScope](https://github.com/aidinghazagh/github-timeline)** — any GitHub profile as a timeline, in React and TypeScript. Full history comes from GraphQL, fetched a year at a time because that's GitHub's limit. [Try it →](https://aidinghazagh.github.io/github-timeline/)
-
-**[pingeR](https://github.com/aidinghazagh/pingeR)** and **[musicvisu](https://github.com/aidinghazagh/musicvisu)** — two small R packages: one logs pings and reports packet loss and p95/p99 latency, the other turns audio frequencies and lyrics into charts.
-
-### Now
-
-- Building web apps and internal tools at Altyn Logistics
-- Starting my Master's in Gorgan
-- Off the clock: running, chess, sim racing
-
-### Toolbox
+### Setup sheet
 
 - **Every day:** PHP & Laravel, MySQL, JavaScript, Git
 - **At work:** C# & .NET, SQL Server, Flutter & Dart, Kotlin
-- **On the side:** TypeScript & React, Electron, Python, R
+- **Side projects:** TypeScript & React, Electron, Python, R
+
+Off track: sim racing, chess, running, hiking, guitar.
 
 <div dir="rtl">
 
-**به فارسی:** توسعه‌دهندهٔ فول‌استک در آلتن لجستیک، گرگان. بیشتر با لاراول و MySQL کار می‌کنم و به‌زودی کارشناسی ارشد مهندسی نرم‌افزار را شروع می‌کنم. [نسخهٔ فارسی سایت ←](https://aidinghazagh.ir/fa/)
+**به فارسی:** کامپیوتر دوست دارم. توسعه‌دهندهٔ نرم‌افزار در آلتن لجستیک، گرگان؛ بیشتر با لاراول و MySQL کار می‌کنم و امسال کارشناسی ارشد مهندسی نرم‌افزار را شروع می‌کنم. [نسخهٔ فارسی سایت](https://aidinghazagh.ir/fa/)
 
 </div>

@@ -1,8 +1,7 @@
 Fonts in this folder are self-hosted copies distributed via Fontsource (https://fontsource.org).
 
-Newsreader — Copyright 2020 The Newsreader Project Authors (https://github.com/productiontype/Newsreader)
+Titillium Web — Copyright 2009-2011 Accademia di Belle Arti di Urbino and students of MA course of Visual design
 Vazirmatn — Copyright 2015 The Vazirmatn Project Authors (https://github.com/rastikerdar/vazirmatn)
-IBM Plex Sans, IBM Plex Mono — Copyright 2017-2019 IBM Corp.
 
 All are licensed under the SIL Open Font License, Version 1.1:
 
