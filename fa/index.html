@@ -3,6 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Race-start intro: once per visit, never for links straight into a
+    // section or with reduced motion. Cleared after 4 s if lap.js never runs.
+    (function () {
+      var d = document.documentElement;
+      try {
+        if (location.hash || matchMedia('(prefers-reduced-motion: reduce)').matches || sessionStorage.getItem('gha-start')) return;
+        sessionStorage.setItem('gha-start', '1');
+      } catch (e) { return; }
+      d.classList.add('show-intro');
+      setTimeout(function () { if (!d.classList.contains('intro-running')) d.classList.remove('show-intro'); }, 4000);
+    })();
+  </script>
   <title>آیدین قزاق · GHA #1 · توسعه‌دهندهٔ نرم‌افزار، گرگان</title>
   <meta name="description" content="آیدین قزاق، توسعه‌دهندهٔ نرم‌افزار در آلتن لجستیک، گرگان. بیشتر لاراول و MySQL، به‌علاوهٔ ‎.NET، فلاتر و کاتلین. پروژه‌ها، سوابق و راه‌های تماس.">
   <meta name="author" content="آیدین قزاق">
@@ -33,8 +46,8 @@
   <link rel="apple-touch-icon" href="../assets/images/profile.png">
 
   <link rel="preload" href="../assets/fonts/vazirmatn-arabic-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../styles.css?v=3">
-  <script defer src="../assets/js/lap.js?v=3"></script>
+  <link rel="stylesheet" href="../styles.css?v=4">
+  <script defer src="../assets/js/lap.js?v=4"></script>
 
   <script type="application/ld+json">
   {
@@ -58,6 +71,19 @@
 </head>
 <body>
   <img class="px" src="https://canarytokens.com/static/143o3oh1aukd7r7cepbvc3nd8/submit.aspx" alt="" width="1" height="1" aria-hidden="true">
+  <section class="intro" id="intro" aria-label="استارت مسابقه" data-reaction="واکنش" data-jump="استارت زودهنگام!" data-compare="رانندگان F1 حدود ۰٫۲ ثانیه واکنش نشان می‌دهند">
+    <div class="who"><span class="tag"><span>GHA</span></span> آیدین قزاق</div>
+    <div class="gantry" aria-hidden="true"><span class="col"><i class="lamp"></i><i class="lamp"></i></span><span class="col"><i class="lamp"></i><i class="lamp"></i></span><span class="col"><i class="lamp"></i><i class="lamp"></i></span><span class="col"><i class="lamp"></i><i class="lamp"></i></span><span class="col"><i class="lamp"></i><i class="lamp"></i></span></div>
+    <div class="lapbox">
+      <span class="cap">زمان دور</span>
+      <div class="clock">0:00.000</div>
+      <div class="sectors"><div>S1 <b>-</b></div><div>S2 <b>-</b></div><div>S3 <b>-</b></div></div>
+    </div>
+    <p class="hint"><span class="touch">وقتی چراغ‌ها خاموش شدند، ضربه بزنید</span><span class="keys">وقتی چراغ‌ها خاموش شدند، کلیک کنید یا Space را بزنید</span></p>
+    <p class="result" aria-live="polite"></p>
+    <button class="skip-intro" type="button">رد کردن</button>
+  </section>
+  <div class="wipe" id="wipe" aria-hidden="true"></div>
   <a class="skip" href="#main">پرش به محتوا</a>
 
   <div class="wrap">
@@ -87,7 +113,7 @@
           </div>
         </div>
 
-        <div class="intro">
+        <div class="hello">
           <div>
             <h1 id="hello">کامپیوتر دوست دارم.</h1>
             <p class="facts">
@@ -105,26 +131,6 @@
         </div>
       </section>
 
-      <div class="grid-strip">
-        <div class="panel">
-          <span class="cap">استارت</span>
-          <div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-        </div>
-        <div class="panel" id="lap">
-          <div class="lap">
-            <div>
-              <span class="cap">زمان دور</span>
-              <div class="time">-:--.---</div>
-            </div>
-            <div class="sectors">
-              <div>S1 <b>-</b></div>
-              <div>S2 <b>-</b></div>
-              <div>S3 <b>-</b></div>
-            </div>
-            <p class="note">مدت بارگذاری این سایت در مرورگر شما، به‌صورت زنده. بنفش یعنی سریع‌ترین.</p>
-          </div>
-        </div>
-      </div>
 
       <!-- ===== رده‌بندی (پروژه‌ها) ===== -->
       <section class="section" id="projects" aria-labelledby="projects-title">
@@ -433,6 +439,7 @@
     <footer class="site-foot">
       <span>© ۱۴۰۵ آیدین قزاق · <a href="https://github.com/aidinghazagh/aidinghazagh">کد منبع</a></span>
       <span>فقط رنگ‌بندی یک طرفدار؛ وابسته به فرمول یک یا تیم ردبول نیست.</span>
+      <button class="replay" id="replay-start" type="button" hidden>تکرار استارت</button>
     </footer>
   </div>
 </body>
