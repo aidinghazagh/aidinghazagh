@@ -27,8 +27,8 @@
   var skipButton = document.querySelector('.skip-intro');
   var rtl = root.dir === 'rtl';
 
-  var FIRST = 900;          // ms from pressing start to the first light
-  var GAP = [850, 1150];    // ms between lights (real F1: one a second)
+  var FIRST = 700;          // ms from pressing start to the first light
+  var GAP = [700, 950];     // ms between lights (real F1: one a second)
   var HOLD = [500, 2800];   // random ms all five stay on before lights out
   var TOO_FAST = 100;       // under this is anticipation, not reaction
   var STALL = 2000;         // no press this long after lights out: stalled
@@ -88,6 +88,7 @@
 
   function open() {
     clearTimers();
+    pedal.classList.remove('down');
     root.classList.add('show-intro', 'intro-running');
     intro.classList.remove('launched', 'jumped', 'stalled');
     intro.scrollTop = 0;
@@ -98,6 +99,7 @@
 
   function lineUp() {
     clearTimers();
+    pedal.classList.remove('down');
     intro.classList.remove('launched', 'jumped', 'stalled');
     intro.scrollTop = 0;
     results.hidden = true;
@@ -127,11 +129,16 @@
 
   // pedal, tap, click, Space or Enter
   function press(e) {
-    pedal.classList.add('down');
-    later(function () { pedal.classList.remove('down'); }, 160);
     if (phase === 'ready') {
       lineUp();
-    } else if (phase === 'lights') {
+      // a quick press to line up; the pedal springs back
+      pedal.classList.add('down');
+      later(function () { pedal.classList.remove('down'); }, 220);
+      return;
+    }
+    // the race press: the pedal stays down so it's clear it counted
+    pedal.classList.add('down');
+    if (phase === 'lights') {
       finish('jump');
     } else if (phase === 'out') {
       var at = e && e.timeStamp > 0 && e.timeStamp < 1e12 ? e.timeStamp : performance.now();
