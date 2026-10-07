@@ -215,6 +215,8 @@ code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; 
 .sectors .purple::before { background: var(--purple); }
 .sectors .green::before { background: var(--green); }
 .sectors .yellow::before { background: var(--yellow); }
+.sectors .active::before { background: var(--muted); animation: pulse 0.8s ease-in-out infinite alternate; }
+@keyframes pulse { from { opacity: 0.35; } to { opacity: 1; } }
 .lap .note { grid-column: 1 / -1; font-size: 0.875rem; color: var(--faint); }
 
 /* ---------- Sections ---------- */
@@ -339,7 +341,7 @@ details[open] .toggle { transform: rotate(45deg); color: var(--yellow); }
 .onboard pre .k { color: var(--yellow); }
 
 .legend { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin-block-start: 1rem; font-size: 0.9rem; color: var(--muted); }
-.legend span { display: inline-flex; align-items: center; gap: 0.5rem; }
+.legend > span { display: inline-flex; align-items: center; gap: 0.5rem; }
 .legend .tyre { width: 1.4rem; height: 1.4rem; border-width: 3px; font-size: 0.6rem; }
 
 /* ---------- Driver profile ---------- */
