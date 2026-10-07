@@ -194,18 +194,9 @@ code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; 
   border-radius: 50%;
   background: #1b2650;
   box-shadow: inset 0 0 0 3px #060b1d;
-  animation: light 3.4s steps(1, end) 0.4s 1 both;
 }
-.lights i:nth-child(2) { animation-name: light2; }
-.lights i:nth-child(3) { animation-name: light3; }
-.lights i:nth-child(4) { animation-name: light4; }
-.lights i:nth-child(5) { animation-name: light5; }
-/* lights come on one per ~0.5s, then all go out together */
-@keyframes light  { 0% { background: var(--red); } 85%, 100% { background: #1b2650; } }
-@keyframes light2 { 0% { background: #1b2650; } 15% { background: var(--red); } 85%, 100% { background: #1b2650; } }
-@keyframes light3 { 0% { background: #1b2650; } 30% { background: var(--red); } 85%, 100% { background: #1b2650; } }
-@keyframes light4 { 0% { background: #1b2650; } 45% { background: var(--red); } 85%, 100% { background: #1b2650; } }
-@keyframes light5 { 0% { background: #1b2650; } 60% { background: var(--red); } 85%, 100% { background: #1b2650; } }
+/* switched on one by one by assets/js/lap.js, then all out together */
+.lights i.on { background: var(--red); box-shadow: inset 0 0 0 3px #060b1d, 0 0 14px rgba(232, 25, 60, 0.55); }
 
 .lap { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.4rem 1.5rem; align-items: end; }
 .lap .time { font-size: 2.25rem; font-weight: 700; line-height: 1; direction: ltr; }
